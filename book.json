@@ -1,0 +1,36 @@
+{
+    "title": "Curso básico de C",
+    "description": "Curso rápido de C para estudiantes",
+    "isbn": null,
+    "plugins": [],
+    "pluginsConfig": {
+        "fontSettings": {
+            "family": "sans",
+            "size": 2
+        }
+    },
+    "variables": {},
+    "links": {
+        "sidebar": {},
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    },
+    "pdf": {
+        "pageNumbers": true,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 72,
+            "left": 72,
+            "top": 36,
+            "bottom": 36
+        },
+        "headerTemplate": null,
+        "footerTemplate": null
+    }
+}

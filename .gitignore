@@ -1,0 +1,15 @@
+# Reglas de NodeJS:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+## Directorios de dependencias
+## Comentar esto es preferido por varias personas, ver: https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Directorio de compilación de sitio web:
+_book
+
+# eBook compilados:
+*.epub
+*.mobi
+*.pdf
