@@ -1,0 +1,860 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>F. caracteres y strings | Curso básico de C</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.5.0">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+        
+    
+    
+    <link rel="next" href="../../teoria/punteros.html" />
+    
+    
+    <link rel="prev" href="../../teoria/funciones/f_matematicas.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../../gitbook/style.css">
+
+
+        
+    <div class="book" data-level="1.10.3" data-basepath="../.." data-revision="1426364276734">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Entrada
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="teoria/README.html">
+            
+                
+                    <a href="../../teoria/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Teoría
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="teoria/expresiones.html">
+            
+                
+                    <a href="../../teoria/expresiones.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         Expresiones
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.2" data-path="teoria/hola_mundo.html">
+            
+                
+                    <a href="../../teoria/hola_mundo.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                         Hola Mundo
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.3" data-path="teoria/mostrar_texto.html">
+            
+                
+                    <a href="../../teoria/mostrar_texto.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                         Mostrar texto
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.4" data-path="teoria/variables.html">
+            
+                
+                    <a href="../../teoria/variables.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                         Variables
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.5" data-path="teoria/constantes.html">
+            
+                
+                    <a href="../../teoria/constantes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                         Constantes
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.6" data-path="teoria/introducir_datos.html">
+            
+                
+                    <a href="../../teoria/introducir_datos.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                         Introducir datos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.7" data-path="teoria/operadores.html">
+            
+                
+                    <a href="../../teoria/operadores.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                         Operadores
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.8" data-path="teoria/control_de_flujo/README.html">
+            
+                
+                    <a href="../../teoria/control_de_flujo/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                         Control de flujo
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.8.1" data-path="teoria/control_de_flujo/condicionales.html">
+            
+                
+                    <a href="../../teoria/control_de_flujo/condicionales.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.1.</b>
+                        
+                         Condicionales
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.8.2" data-path="teoria/control_de_flujo/bucles.html">
+            
+                
+                    <a href="../../teoria/control_de_flujo/bucles.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.2.</b>
+                        
+                         Bucles
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.9" data-path="teoria/arrays/README.html">
+            
+                
+                    <a href="../../teoria/arrays/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                         Arrays
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.9.1" data-path="teoria/arrays/arrays_multidimensionales.html">
+            
+                
+                    <a href="../../teoria/arrays/arrays_multidimensionales.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.1.</b>
+                        
+                         Arrays multidimension
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.9.2" data-path="teoria/arrays/strings.html">
+            
+                
+                    <a href="../../teoria/arrays/strings.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.2.</b>
+                        
+                         Strings
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.10" data-path="teoria/funciones/README.html">
+            
+                
+                    <a href="../../teoria/funciones/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                         Funciones
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.10.1" data-path="teoria/funciones/f_main.html">
+            
+                
+                    <a href="../../teoria/funciones/f_main.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.1.</b>
+                        
+                         F. main()
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.10.2" data-path="teoria/funciones/f_matematicas.html">
+            
+                
+                    <a href="../../teoria/funciones/f_matematicas.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.2.</b>
+                        
+                         F. matemáticas
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="1.10.3" data-path="teoria/funciones/f_caracteres_strings.html">
+            
+                
+                    <a href="../../teoria/funciones/f_caracteres_strings.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.3.</b>
+                        
+                         F. caracteres y strings
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.11" data-path="teoria/punteros.html">
+            
+                
+                    <a href="../../teoria/punteros.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.11.</b>
+                        
+                         Punteros
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.12" data-path="teoria/ficheros/README.html">
+            
+                
+                    <a href="../../teoria/ficheros/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.</b>
+                        
+                         Ficheros
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.12.1" data-path="teoria/ficheros/redireccion.html">
+            
+                
+                    <a href="../../teoria/ficheros/redireccion.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.1.</b>
+                        
+                         Redirección
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.12.2" data-path="teoria/ficheros/trabajo_ficheros.html">
+            
+                
+                    <a href="../../teoria/ficheros/trabajo_ficheros.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.2.</b>
+                        
+                         Trabajo con ficheros
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.12.3" data-path="teoria/ficheros/funciones_ficheros.html">
+            
+                
+                    <a href="../../teoria/ficheros/funciones_ficheros.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.3.</b>
+                        
+                         Funciones de ficheros
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.13" data-path="teoria/estructuras.html">
+            
+                
+                    <a href="../../teoria/estructuras.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.13.</b>
+                        
+                         Estructuras
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="ejercicios/README.html">
+            
+                
+                    <a href="../../ejercicios/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Ejercicios resueltos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="anexos/README.html">
+            
+                
+                    <a href="../../anexos/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Anexos
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="anexos/librerias_c_de_cabecera.html">
+            
+                
+                    <a href="../../anexos/librerias_c_de_cabecera.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         Librerías C de cabecera
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2" data-path="anexos/normativa.html">
+            
+                
+                    <a href="../../anexos/normativa.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                         Normativa
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3" data-path="anexos/bibliografia.html">
+            
+                
+                    <a href="../../anexos/bibliografia.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                         Bibliografía
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Curso básico de C</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_554">
+                    
+                        <h1 id="funciones-de-caracteres-y-strings">Funciones de caracteres y strings</h1>
+<p>Ahora trataremos una serie de funciones que nos ayudan mucho para trabajar con caracteres y strings.</p>
+<p>Existen de muchos tipos, pero para este curso nos centraremos sólo en las más básicas.</p>
+<blockquote>
+<p><strong>REPASO</strong>:</p>
+<p>Un <strong>caracter</strong> es un símbolo almacenado en una varialble que almacena un dato de tipo <code>char</code>.</p>
+<p>Un <strong>string</strong> es un array que almacena una cadena de caracteres.</p>
+</blockquote>
+<h2 id="funciones-de-tipo-y-conversin-de-caracteres">Funciones de tipo y conversión de caracteres</h2>
+<p>Estas funciones están incluidas en la librería <code>ctype.h</code>, hay de varios tipos:</p>
+<h3 id="comprobacin-de-tipo-de-caracter">Comprobación de tipo de caracter</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Función</th>
+<th style="text-align:left">Caracter</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>isalpha(c)</code></td>
+<td style="text-align:left"><code>[a-zA-Z]</code></td>
+<td style="text-align:left">letra</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>isdigit(c)</code></td>
+<td style="text-align:left"><code>[0-9]</code></td>
+<td style="text-align:left">número</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>isalnum(c)</code></td>
+<td style="text-align:left"><code>[a-zA-Z0-9]</code></td>
+<td style="text-align:left">número o letra</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>iscdigit(c)</code></td>
+<td style="text-align:left"><code>[0-9a-fA-F]</code></td>
+<td style="text-align:left">caracter hexadecimal</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>isspace(c)</code></td>
+<td style="text-align:left"><code>[ \t\n]</code></td>
+<td style="text-align:left">espacio, tabulación o salto de línea</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>iscntrl(c)</code></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">caracter control</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ispunct(c)</code></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">caracter de puntuación</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>isprint(c)</code></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">caracter imprimible</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>isgraph(c)</code></td>
+<td style="text-align:left"></td>
+<td style="text-align:left">caracter gráfico</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>isupper(c)</code></td>
+<td style="text-align:left"><code>[A-Z]</code></td>
+<td style="text-align:left">letra mayúscula</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>islower(c)</code></td>
+<td style="text-align:left"><code>[a-z]</code></td>
+<td style="text-align:left">letra minúscula</td>
+</tr>
+</tbody>
+</table>
+<h3 id="modificacin-de-caracter">Modificación de caracter</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Función</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>toupper(c)</code></td>
+<td style="text-align:left">devuelve el caracter en mayúscula</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>tolower(c)</code></td>
+<td style="text-align:left">devuelve el caracter en minúscula</td>
+</tr>
+</tbody>
+</table>
+<p>Ejemplo, una aplicación que comprueba si el caracter aportado es una letra o un número y, si es letra, comprueba si está en mayúscula o no.</p>
+<pre><code class="lang-c"><span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> &lt;stdio.h&gt;</span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> &lt;ctype.h&gt;</span>
+
+<span class="hljs-keyword">void</span> comprobar(<span class="hljs-keyword">char</span> caracter) {
+    <span class="hljs-keyword">if</span> (<span class="hljs-built_in">isalpha</span>(caracter)) {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"\"%c\" es una letra"</span>, caracter);
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">isupper</span>(caracter)) {
+            <span class="hljs-built_in">printf</span>(<span class="hljs-string">" y es mayúscula"</span>);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-built_in">printf</span>(<span class="hljs-string">" y es minúscula"</span>);
+        }
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">".\n"</span>);
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"\"%c\" no es una letra.\n"</span>, caracter);
+    }
+}
+
+<span class="hljs-keyword">int</span> main() {
+    <span class="hljs-keyword">char</span> letra = <span class="hljs-string">'a'</span>;
+    <span class="hljs-keyword">char</span> numero = <span class="hljs-string">'8'</span>;
+
+    comprobar(letra);  <span class="hljs-comment">// "a" es letra y es minúscula.</span>
+    comprobar(numero); <span class="hljs-comment">// "8" no es una letra</span>
+    letra = <span class="hljs-built_in">toupper</span>(letra);
+    comprobar(letra);  <span class="hljs-comment">// "A" es letra y es mayúscula.</span>
+}
+</code></pre>
+<h2 id="funciones-de-manipulacin-de-strings">Funciones de manipulación de strings</h2>
+<p>Trataremos varias funciones nuevas para trabajar con cadenas de texto:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Función</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>strlen()</code></td>
+<td style="text-align:left">Devuelve el número de caracteres sin contar <code>\0</code>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>strcpy(dest, src)</code></td>
+<td style="text-align:left">Sobreescribe el contenido de <code>src</code> en <code>dest</code>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>strcat(dest, src)</code></td>
+<td style="text-align:left">Añade el contenido de la cadena <code>src</code> en <code>dest</code>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>sprintf()</code></td>
+<td style="text-align:left">Copia un string a un array igual que <code>printf()</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>strcmp(s1, s2)</code></td>
+<td style="text-align:left">Comprueba si <code>s1</code> y <code>s2</code> son distintos.</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-c"><span class="hljs-comment">// EJEMPLO DE FUNCIONES PARA MANIPULAR STRINGS</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../teoria/funciones/f_matematicas.html" class="navigation navigation-prev " aria-label="Previous page: F. matemáticas"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../teoria/punteros.html" class="navigation navigation-next " aria-label="Next page: Punteros"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
