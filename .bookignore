@@ -1,2 +1,6 @@
 # Archivos fuente
 src
+
+# Ficheros de compilación
+gulpfile.js
+package.json

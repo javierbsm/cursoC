@@ -145,13 +145,13 @@ unsigned numero_entero_sin_signo;
 
 La siguiente tabla muestra los tipos de datos más comunes, y que usaremos en este curso, junto con **código de conversión** que utiliza, el espacio que ocupa en memoria y el rango de números que puede almacenar.
 
-| Categoría | Tipo | Conversión | Descripción | Bytes | Mínimo | Máximo |
-|-----------|------|------------|-------------|------:|-------:|-------:|
-| Enteros | `int`    | `%i` ó `%d` | Número entero   | 4 | -2.147.483.647 | 2.147.483.647 |
-|         | `unsigned` | `%u`  | Número entero sin signo | 4 | 0 | 4.294.967.295 |
-| Reales | `float`  | `%f` ó `%e` | Número real de 7 dígitos | 4 | 3.4e38 | 3.4e38 |
-|        | `double` | `%f` ó `%e` | Número real de 14 dígitos | 8 | 1.7e308 | 1.7e308 |
-| Caracteres | `char` | `%c` | Caracter ASCII | 1 | -128 | 127 |
+| Tipo | Declaración | Conversión | Bytes | Mínimo | Máximo |
+|------|-------------|------------|------:|-------:|-------:|
+| Entero | `int`    | `%i` ó `%d` |  4 | -2.147.483.647 | 2.147.483.647 |
+| Entero sin signo   | `unsigned` | `%u`        | 4 | 0       | 4.294.967.295 |
+| Real de 7 dígitos  | `float`    | `%f` ó `%e` | 4 | 3.4e38  | 3.4e38 |
+| Real de 14 dígitos | `double`   | `%f` ó `%e` | 8 | 1.7e308 | 1.7e308 |
+| Caracter ASCII     | `char`     | `%c`        | 1 | -128    | 127 |
 
 ## Asignar caracter a una variable
 

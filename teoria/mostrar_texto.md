@@ -92,3 +92,33 @@ printf("Esto es muy \"extraño\".");
 
 ## Ejercicios
 
+### Mostrar párrafo en pantalla
+
+Escribe una aplicación que muestre el siguiente párrafo en pantalla:
+
+````text
+En un lugar de la Mancha, de cuyo nombre no quiero
+acordarme, no ha mucho tiempo que vivía un hidalgo de los de
+lanza en astillero, adarga antigua, rocín flaco y galgo
+corredor. Una olla de algo más vaca que carnero, salpicón
+las más noches, duelos y quebrantos los sábados, lentejas
+los viernes, algún palomino de añadidura los domingos,
+consumían las tres partes de su hacienda.
+````
+
+Solución en el [Apartado de Ejercicios resueltos](../ejercicios/README.md#mostrar-parrafo-en-pantalla).
+
+### Mostrar caracteres especiales
+
+Escribe una aplicación que muestre el siguiente dibujo en pantalla:
+
+````text
+          '__'
+          (oo)
+  +========\/
+ / ||-----||
+*  ||-----||
+   ""     ""
+````
+
+Solución en el [Apartado de Ejercicios resueltos](../ejercicios/README.md#mostrar-caracteres-especiales).

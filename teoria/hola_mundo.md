@@ -1,6 +1,24 @@
 # Hola Mundo
 
-Empezamos el curso creando nuestra primera aplicación en C. Será una aplicación muy sencilla que tan solo mostrará **"Hola Mundo"** en pantalla.
+Empezamos el curso creando nuestra primera aplicación en **C**. pero antes de nada tendremos que instalar un editor de texto y un compilador para poder escribir nuestra aplicación.
+
+## Editores de texto y compilador
+
+Si estás empezando desde cero, te indico una serie de recomedaciones en función del sistema operativo en el que trabajes. Son editores de texto avanzados que están genial para aplicaciones sencillas y que además te instalan el compilador para **C**.
+
+| Sistema operativo | Aplicación |
+|:-----------------:|:----------:|
+| Windows | [WxDev-C++](http://wxdsgn.sourceforge.net/) |
+| MacOS   | [Xcode](https://developer.apple.com/xcode/) |
+| Linux   | [Geany](http://www.geany.org/) |
+| Android | [CppDroid](https://play.google.com/store/apps/details?id=name.antonsmirnov.android.cppdroid&hl=es) |
+| iOS     | [CppCode](https://itunes.apple.com/app/cppcode-offline-c-c++-ide/id936694712) |
+
+>Si ya estás acostumbrado a programar, te basta con instalar un compilador de **C**, [MinGW](http://www.mingw.org/) para Windows o los paquetes `gcc` y `g++` en Linux y MacOs, así puedes utilizar tu editor de texto o IDE favorito.
+
+## Nuestra primera aplicación en C
+
+Ya tenemos instalado será una aplicación muy sencilla que tan solo mostrará **"Hola Mundo"** en pantalla. 
 
 Para ello crea un archivo llamado `hola_mundo.c`. Abrelo con el editor de texto y escribe el siguiente código:
 

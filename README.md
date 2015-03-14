@@ -7,18 +7,20 @@
 
 Este es un curso elemental de C para estudiantes y todo aquel que quiera empezar a aprender a programar.
 
-## Editores de texto para C
+**C** es un lenguaje de programación creado en 1972 por [Denis M. Ritchie](http://es.wikipedia.org/wiki/Dennis_M._Ritchie) en los [Laboratorios Bell](http://es.wikipedia.org/wiki/Laboratorios_Bell) para la implementación del sistema operativo [Unix](http://es.wikipedia.org/wiki/Unix). Es muy apreciado por la eficiencia del código que produce y es el lenguaje de programación más popular para crear software de sistemas, aunque también se utiliza para crear aplicaciones.
 
-Voy a presuponer que está empezando con la programación, entonces te recomiendo que utilices un editor de texto avanzado que permita compilar el fichero de código **C** con el que estás trabajando y ejecutarlo desde el mismo editor.
+## ¿Por qué aprender C?
 
-Aquí te indico una serie de recomedaciones en función de cual sea el sistema operativo que estés utilizando.
+Es una buena pregunta, hay varios lenguajes de programación populares que son muy demandados como [Python](http://es.wikipedia.org/wiki/Python), <a href="Javahttp://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="new">Java</a>, [PHP](http://es.wikipedia.org/wiki/PHP) o [Javascript](http://es.wikipedia.org/wiki/JavaScript). Comparado con ellos **C** puede ser un poco más complicado de entrada ya que trabaja a más bajo nivel y es más laborioso hacer una aplicación pero eso mismo hará que aprendas más sobre como funciona la programación y como trabaja el ordenador.
 
-| Sistema operativo | Aplicación |
-|:-----------------:|:----------:|
-| Windows | [WxDev-C++](http://wxdsgn.sourceforge.net/) |
-| MacOS   | [Xcode](https://developer.apple.com/xcode/) |
-| Linux   | [Geany](http://www.geany.org/) |
-| Android | [CppDroid](https://play.google.com/store/apps/details?id=name.antonsmirnov.android.cppdroid&hl=es) |
-| iOS     | [CppCode](https://itunes.apple.com/app/cppcode-offline-c-c++-ide/id936694712) |
+También existen varios lenguajes de programación populares que nacen directamente de **C** y añaden funcionalidades como son [C++](http://es.wikipedia.org/wiki/C%2B%2B), [C#](http://es.wikipedia.org/wiki/C_Sharp) y [Objetive-C](http://es.wikipedia.org/wiki/Objective-C). Si algún día fueses a trabajar con ellos, conocer **C** es casi un requisito para poder profundizar en el lenguaje   .
 
->Si ya estás acostumbrado a programar, te basta con instalar un compilador de **C**, [MinGW] para Windows o los paquetes `gcc` y `g++` en Linux y MacOs, así puedes utilizar tu editor de texto o IDE favorito.
+Tan sólo echa un vistazo a [este artículo](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html), de Tiobe Software, sobre el uso de lenguajes de programación en los últimos años y verás que **C** y cualquiera de sus "hijos" están en los primeros puestos.
+
+## Dudas, preguntas o sugerencias
+
+Como este curso está alojado en [GitHub](https://github.com), simplemente publica tu duda o sugerencia en la sección de [Problemas](https://github.com/isidrorg/cursoC/issues).
+
+# Terminos legales
+
+Este curso es publicado bajo las licencias [Licencia de documentación libre de GNU](https://www.gnu.org/copyleft/fdl.html) y [Creative Common Reconocimiento 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/deed.es_ES).
